@@ -1,0 +1,8 @@
+
+
+float customBaseLogarithm(float base, float value) {
+    if (base > 0 && base != 1 && value > 0) {
+        return log(value) / log(base);
+    } else {
+        printf("Error: Invalid input for custom base logarithm!\n");
+        return NAN;
