@@ -6,3 +6,11 @@ float customBaseLogarithm(float base, float value) {
     } else {
         printf("Error: Invalid input for custom base logarithm!\n");
         return NAN;
+
+
+float naturalLogarithm(float value) {
+    if (value > 0) {
+        return log(value);
+    } else {
+        printf("Error: Invalid input for natural logarithm!\n");
+        return NAN;
